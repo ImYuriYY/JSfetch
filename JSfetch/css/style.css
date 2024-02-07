@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+header a {
+    font-size: 20px;
+    color: black;
+}
+
+
+
+.elements-wrapper {
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post, #todo, #comment {
+    width: 250px;
+    height: 350px;
+    background-color: rgb(177, 177, 177);
+    margin: 0 50px 50px 50px;
+}
+
+#postTitle, #todoTitle, #commentName {
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#postBody, #todoStatus, #commentBody {
+    width: 100%;
+}
+
+.add-link-wrapper {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.add-link-wrapper a {
+    margin-left: 50px;
+    color: black;
+    font-size: 20px;
+}
+
+#commentEmail {
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+
+.add-form-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.add-form {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(206, 206, 206);
+}
+.add-form label {
+    width: 50%;
+    padding-top: 15px;
+}
+.add-form button {
+    margin-top: 50px;
+    width: 200px;
+    height: 30px;
+}
+
+
+#commentBodyTextarea, #postBodyTextarea {
+    resize: none;
+    width: 100%;
+    height: 100px;
+}
